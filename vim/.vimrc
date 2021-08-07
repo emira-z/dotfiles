@@ -78,3 +78,11 @@ inoremap <Left>  <ESC>:echoe "Use h"<CR>
 inoremap <Right> <ESC>:echoe "Use l"<CR>
 inoremap <Up>    <ESC>:echoe "Use k"<CR>
 inoremap <Down>  <ESC>:echoe "Use j"<CR>
+
+" general tab settings 
+set shiftwidth=0
+set tabstop=4
+
+" tab settings for yaml files
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+
