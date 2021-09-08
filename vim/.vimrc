@@ -81,6 +81,7 @@ inoremap <Down>  <ESC>:echoe "Use j"<CR>
 
 " general tab settings 
 set shiftwidth=0
+set expandtab
 set tabstop=4
 
 " tab settings for yaml files
